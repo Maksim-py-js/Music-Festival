@@ -1,0 +1,335 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000; }
+
+header {
+  margin: 0 auto;
+  background: transparent url("images/header_bg.png") 50% 50%/cover no-repeat; }
+  header .container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between; }
+    header .container .menu ul {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      margin: 3px 0 0 0;
+      padding: 0; }
+      header .container .menu ul li {
+        list-style: none; }
+        header .container .menu ul li a {
+          font-family: "Lato";
+          font-size: 18px;
+          text-transform: uppercase;
+          color: #fff;
+          text-decoration: none;
+          margin-right: 50px; }
+    header .container .social {
+      align-items: center; }
+      header .container .social a {
+        text-decoration: none;
+        margin-left: 24px; }
+  header .main {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 240px; }
+    header .main .title,
+    header .main .about {
+      font-family: "Lato";
+      font-size: 28px;
+      color: #fff;
+      text-transform: uppercase; }
+    header .main .about {
+      width: 360px; }
+    header .main .title {
+      font-family: "Lato";
+      font-size: 28px;
+      color: #fff;
+      text-transform: uppercase; }
+    header .main .site_name {
+      width: 360px;
+      font-family: "Lato";
+      font-weight: bold;
+      font-size: 80px;
+      background: linear-gradient(90deg, #aa3a67 0%, #f97e6b 70%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-transform: uppercase;
+      line-height: 80px; }
+    header .main .button button {
+      display: inline-block;
+      margin: 68px 0 292px 0;
+      padding: 5px 4px 4px 4px;
+      background: linear-gradient(-45deg, #f97e6b, #aa3a67 52%);
+      border: none;
+      border-radius: 5px; }
+      header .main .button button:after {
+        display: block;
+        content: "Lorem Ipsum";
+        font-family: "Lato";
+        font-weight: bold;
+        font-size: 24px;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 27px 65px;
+        background: transparent url("images/header_bg.png") 26% 66% no-repeat; }
+
+main {
+  margin: 0 auto; }
+  main .main_cards {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto; }
+    main .main_cards .main_title {
+      text-align: center;
+      font-family: "Lato";
+      font-weight: bold;
+      font-size: 38px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 60px 0 60px 0; }
+    main .main_cards .cards {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      text-align: center;
+      margin: 0 auto;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center; }
+      main .main_cards .cards .card {
+        justify-content: center;
+        margin: 15px 30px 15px 15px;
+        width: calc(100% / 2 - 30px);
+        border-radius: 10px;
+        flex-wrap: wrap;
+        background: transparent url("images/bg_card_1.png") 50% 50%/cover no-repeat; }
+        main .main_cards .cards .card:nth-child(2n) {
+          background: transparent url("images/bg_card_2.png") 50% 50%/cover no-repeat;
+          margin: 15px 0 auto 15px; }
+        main .main_cards .cards .card .title {
+          font-family: "Lato";
+          font-size: 30px;
+          color: #fff;
+          text-transform: uppercase;
+          margin-top: 30px; }
+        main .main_cards .cards .card .cash {
+          font-family: "Lato";
+          font-weight: bold;
+          font-size: 60px;
+          color: #fff;
+          text-transform: uppercase;
+          margin-top: 215px;
+          margin-bottom: 40px; }
+        main .main_cards .cards .card button {
+          font-family: "Lato";
+          font-weight: bold;
+          font-size: 24px;
+          color: #fff;
+          text-transform: uppercase;
+          background: transparent;
+          padding: 0;
+          margin: 0;
+          border: 4px solid white;
+          padding: 21px 66px; }
+        main .main_cards .cards .card .about {
+          padding-left: 25px;
+          font-family: "Lato";
+          font-size: 16px;
+          color: #fff;
+          margin-top: 30px; }
+        main .main_cards .cards .card .copy {
+          font-family: "Lato";
+          font-size: 12px;
+          color: #fff;
+          margin-top: 35px; }
+    main .main_cards .copy {
+      margin-top: 60px;
+      margin-bottom: 60px;
+      text-align: center;
+      font-family: "Lato";
+      font-size: 22px;
+      color: #fff; }
+  main .trajectory {
+    margin: 0 auto;
+    padding: 160px 0 100px 0;
+    background: transparent url("images/main_bg.png") 50% 50%/cover no-repeat; }
+    main .trajectory .title,
+    main .trajectory .about,
+    main .trajectory .years_trajectory {
+      width: 540px;
+      margin: 0 auto;
+      padding-left: 570px; }
+    main .trajectory .title {
+      padding-bottom: 44px;
+      font-family: "Lato";
+      font-weight: bold;
+      font-size: 38px;
+      color: #fff;
+      text-transform: uppercase; }
+    main .trajectory .about {
+      font-family: "Lato";
+      font-size: 22px;
+      color: #fff;
+      line-height: 34px;
+      margin-bottom: 90px; }
+    main .trajectory .years_trajectory .block {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex; }
+      main .trajectory .years_trajectory .block:last-child .event .line {
+        border: none; }
+      main .trajectory .years_trajectory .block .year {
+        font-family: "Lato";
+        font-weight: lighter;
+        font-size: 32px;
+        color: #fff;
+        text-decoration: none;
+        margin-right: 37px; }
+      main .trajectory .years_trajectory .block .event {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        position: relative; }
+        main .trajectory .years_trajectory .block .event .line {
+          position: absolute;
+          left: 9px;
+          border: 3px solid #f97e6b;
+          border-radius: 5px;
+          top: 28px;
+          bottom: 4px; }
+        main .trajectory .years_trajectory .block .event li {
+          margin-bottom: 46px;
+          margin-left: 50px;
+          list-style: none; }
+          main .trajectory .years_trajectory .block .event li a {
+            font-family: "Lato";
+            font-size: 22px;
+            color: #fff;
+            text-decoration: none; }
+  main .gallery {
+    max-width: 1110px;
+    margin: 0 auto; }
+    main .gallery .title {
+      margin: 60px 0;
+      text-align: center;
+      font-family: "Lato";
+      font-weight: bold;
+      font-size: 38px;
+      color: #fff;
+      text-transform: uppercase; }
+    main .gallery .images {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 0; }
+      main .gallery .images .image {
+        padding: 0;
+        margin: 0;
+        border: none;
+        width: calc(100% / 3); }
+        main .gallery .images .image img {
+          width: 100%;
+          height: 100%; }
+    main .gallery button {
+      display: block;
+      margin: 60px auto;
+      font-family: "Lato";
+      font-weight: bold;
+      font-size: 24px;
+      color: #fff;
+      text-transform: uppercase;
+      background: transparent;
+      padding: 0;
+      border: 4px solid white;
+      padding: 21px 66px; }
+  main .map {
+    margin: 0 auto;
+    text-align: center;
+    position: relative; }
+    main .map .cart iframe {
+      width: 100%;
+      height: 979px;
+      margin: 0;
+      padding: 0;
+      border: none; }
+    main .map .block {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #fff;
+      opacity: 0.85;
+      padding: 41px 0 0 0;
+      border-radius: 10px; }
+      main .map .block .title {
+        font-family: "Lato";
+        font-weight: bold;
+        font-size: 38px;
+        color: #000;
+        text-transform: uppercase;
+        margin-bottom: 25px; }
+      main .map .block .text {
+        font-family: "Lato";
+        font-size: 22px;
+        color: #000;
+        line-height: 35px;
+        margin: 0 70px; }
+      main .map .block .about {
+        font-family: "Lato";
+        font-size: 22px;
+        color: #454545;
+        line-height: 35px;
+        padding-bottom: 50px;
+        margin: 0 70px; }
+
+footer {
+  margin: 0 auto;
+  background: linear-gradient(to right, #5328a1 20%, #860073, #930047, #8a0f24, #772e09); }
+  footer .footer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 60px 0;
+    justify-content: space-between; }
+    footer .footer .name .site_name {
+      width: 150px;
+      font-family: "Lato";
+      font-weight: bold;
+      font-size: 29px;
+      color: #fff;
+      text-transform: uppercase; }
+    footer .footer .name .about {
+      font-family: "Lato";
+      font-size: 14px;
+      color: #fff;
+      text-transform: uppercase;
+      margin-top: 10px; }
+    footer .footer .social {
+      align-items: center; }
+      footer .footer .social a {
+        text-decoration: none;
+        margin-left: 24px; }
